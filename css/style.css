@@ -1,0 +1,1232 @@
+/* /* font-family: 'Saira', sans-serif;
+font-family: 'Saira Condensed', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.clearfix::after {
+
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+html {
+
+    background-color: black;
+}
+
+header {
+    position: relative;
+
+
+    height: 100vh;
+    background-image: url(../images/Profilowe.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    background-color: rgb(43, 26, 43);
+
+
+
+}
+
+header>* {
+
+    position: absolute;
+
+}
+
+
+
+div.welcome {
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+div.welcome p {
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+}
+
+div.welcome h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+
+}
+
+div.welcome ul {
+
+    margin: 5px auto;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+div.welcome h2 {
+    font-size: 25px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+header button {
+    margin-top: 235px;
+    padding: 10px 20px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 2s;
+
+}
+
+header button:hover {
+    background-color: rgb(10, 3, 53);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* SEKCJA 1 */
+
+
+.features {
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(43, 26, 43);
+}
+
+div.feature {
+    border-bottom: 5px solid black;
+}
+
+.features h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+    font-size: 23px;
+}
+
+.features h2 {
+
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+
+
+}
+
+.features img {
+    width: 100%;
+    margin: 5px 0;
+    max-width: 375px;
+
+}
+
+.features p {
+
+    font-family: 'Saira', sans-serif;
+    color: white;
+
+}
+
+/* Portfolio */
+.portfolio {
+    background-color: black;
+
+}
+
+.portfolio .project {
+
+    margin-bottom: 20px;
+    max-width: 1600px;
+    margin: 0 auto 20px;
+}
+
+.portfolio h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+.web img {
+
+    width: 100%;
+
+}
+
+.about {
+    color: white;
+    font-family: 'Saira', sans-serif;
+    font-weight: normal;
+    padding: 0px 0px 10px 0px;
+
+}
+
+.about h2 {
+
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+
+}
+
+.about p {
+    font-size: 10px;
+    padding-left: 20px;
+
+}
+
+.portfolio .project:nth-of-type(odd) {
+
+    background-color: rgb(14, 14, 51);
+
+}
+
+.portfolio .project:nth-of-type(even) {
+
+    background-color: rgb(54, 13, 16);
+
+}
+
+/* Motto */
+.motto {
+
+    background-color: black;
+    text-align: center;
+    background-image: url(../images/droga.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+div.bg {
+
+    background-color: rgba(41, 34, 102, 0.4);
+    padding: 30px 10px;
+
+}
+
+.motto h1 {
+
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+.motto p {
+
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+
+}
+
+.motto p.author {
+
+    font-size: 23px;
+    margin-top: 15px;
+
+}
+
+/* HOBBY */
+
+.item {
+
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.item p {
+
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 30vh;
+    text-shadow: 0 0 10px white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    padding: 5px 0;
+
+}
+
+.hobby h1 {
+
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    font-size: 30px;
+
+}
+
+.hobby .item:nth-of-type(1) {
+
+    background-image: url(../images/hobby1.jpg);
+
+}
+
+.hobby .item:nth-of-type(2) {
+
+    background-image: url(../images/hobby2.jpg);
+
+}
+
+.hobby .item:nth-of-type(3) {
+
+    background-image: url(../images/hobby3.jpg);
+
+}
+
+.hobby .item:nth-of-type(4) {
+
+    background-image: url(../images/hobby4.jpg);
+
+}
+
+/* Kontakt */
+.contact {
+
+    background-color: black;
+    padding: 30px 20px;
+
+}
+
+.contact .wrapper {
+    padding-top: 20px;
+    /* max-width: 1024px; */
+
+}
+
+.contact h1 {
+
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.contact input,
+.contact button,
+.contact textarea {
+
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Saira', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+.contact input {
+
+    height: 36px;
+
+}
+
+.contact textarea {
+
+    height: 120px;
+
+}
+
+.contact button {
+
+    height: 3.5vw;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.contact button:hover {
+
+    color: white;
+    background-color: rgb(10, 3, 53);
+
+}
+
+.contact .socials {
+
+    padding-top: 20px;
+
+}
+
+.contact .social {
+
+    padding: 10px 0;
+    color: white;
+
+}
+
+.contact .social1 {
+
+    padding: 10px 0;
+    color: white;
+
+}
+
+
+.contact .social1 img {
+    float: left;
+}
+
+.contact .social1 {
+
+    color: white;
+
+}
+
+.contact .social1 span {
+
+    line-height: 72px;
+    padding-left: 5px;
+
+}
+
+
+.contact .social img {
+
+    float: left;
+
+}
+
+.contact .social span {
+
+    line-height: 72px;
+    padding-left: 20px;
+
+}
+
+/* FOOTER */
+
+footer {
+
+
+    background-color: rgb(43, 26, 43);
+    padding: 20px;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+@media (orientation:landscape) and (min-width:532px) {
+    header {
+
+        background-image: url(../images/Screenshot_6.jpg);
+
+    }
+
+    div.welcome {
+
+        top: 20px;
+        text-align: center;
+        background-color: rgba(15, 14, 15, 0.7);
+        max-width: 38%;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto 0;
+        padding: 10px 0;
+
+    }
+
+    header button {
+
+        margin-top: 10px;
+    }
+
+    /* Projekty */
+
+    .web,
+    .about {
+
+        width: 50%;
+        float: left;
+
+    }
+
+    .web img {
+
+        display: block;
+
+    }
+
+    .portfolio .project:nth-of-type(even) .web {
+
+        float: right;
+
+    }
+
+    .about h2 {
+
+        text-indent: 0;
+        margin-left: 40px;
+
+    }
+
+    /* Motto */
+    .motto h1 {
+
+        font-size: calc(40px + 1.5vw);
+
+    }
+
+    .motto p {
+
+        font-size: calc(20px + 1.3vw);
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .motto p.author {
+
+        font-size: calc(40px + 1.5vw);
+
+    }
+
+    /* HOBBY */
+    .item {
+
+        float: left;
+        width: 50%;
+        height: 40vh;
+
+    }
+
+    .item p {
+
+        line-height: 40vh;
+
+    }
+
+
+    /*KONTAKT  */
+    .contact .socials {
+
+        font-size: 0;
+
+    }
+
+    .contact .social span {
+
+        float: left;
+        font-size: 20px;
+
+    }
+
+    .contact .social1 span {
+
+        float: left;
+        font-size: calc(10px + 0.4vw);
+
+    }
+
+    .contact .social,
+    .contact .social1 {
+
+        display: inline-block;
+        width: 49%;
+
+    }
+
+    .contact button {
+
+        height: 9vw;
+        font-size: calc(20px + 1.5vw);
+
+    }
+
+    /* FOOTER */
+
+
+}
+
+
+
+@media (orientation:landscape) and (min-width:640px) {
+    div.welcome {
+
+        top: 20px;
+        max-width: 40%;
+        max-height: 85%;
+        line-height: 30px;
+
+    }
+}
+
+@media (orientation:landscape) and (min-width:730px) {
+    header {
+
+        background-position: center;
+        background-position-x: -10px;
+
+    }
+
+    div.welcome {
+
+        top: 20px;
+        max-width: 40%;
+        max-height: 95%;
+        line-height: 30px;
+
+    }
+
+    div.welcome p {
+
+        font-size: 20px;
+
+    }
+
+    div.welcome h1 {
+
+        font-size: 30px;
+    }
+
+    div.welcome h2 {
+
+        font-size: 30px;
+    }
+
+    div.welcome ul {
+
+        margin: 5px auto;
+        line-height: 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 20px;
+
+    }
+
+    header button {
+
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 20px;
+
+    }
+
+    .portfolio h1 {
+
+        font-size: 45px;
+
+    }
+
+
+
+    .portfolio .about h2 {
+
+        font-size: calc(25px + 1vh);
+
+    }
+
+    .portfolio .about p {
+
+        font-size: 12px;
+
+    }
+
+    /* HOBBY */
+    .hobby h1 {
+
+        font-size: calc(25px + 2vw);
+
+    }
+
+    .item {
+
+        height: 50vh;
+
+    }
+
+    .item p {
+
+        line-height: 50vh;
+        font-size: calc(25px + 1.5vw);
+
+    }
+
+    .item {
+
+        background-size: 130%;
+        transition: 1s;
+
+    }
+
+    .item:hover {
+
+        background-size: 160%;
+
+    }
+
+}
+
+@media (orientation:landscape) and (min-width:927px) {
+
+    header {
+
+        background-position-x: 0px;
+
+    }
+
+
+    div.welcome {
+
+        top: 100px;
+        max-height: 80%;
+        height: 60%;
+        line-height: 40px;
+
+    }
+
+
+    div.welcome p {
+
+        font-size: 30px;
+
+    }
+
+    div.welcome h1 {
+
+        font-size: 45px;
+    }
+
+    div.welcome h2 {
+
+        font-size: 40px;
+    }
+
+    div.welcome ul {
+
+        line-height: 50px;
+        font-size: 27px;
+    }
+
+
+    header button {
+
+        margin: 50px 0 10px;
+        font-size: 35px;
+
+    }
+
+
+    .portfolio h1 {
+
+        font-size: 55px;
+
+    }
+
+
+
+    .portfolio .about h2 {
+
+        font-size: calc(25px + 1vh);
+
+    }
+
+    .portfolio .about p {
+
+        font-size: calc(15px + 0.5vh);
+
+    }
+}
+
+@media (min-width:1024px) {
+
+    div.welcome {
+
+        top: 60px;
+        height: 100vw;
+        line-height: calc(15px + 4vw)
+
+    }
+
+    div.welcome p {
+
+        font-size: 50px;
+
+    }
+
+    div.welcome h1 {
+
+        font-size: calc(15px + 4vw);
+
+    }
+
+    div.welcome h2 {
+
+        font-size: calc(15px + 3vw);
+
+    }
+
+    div.welcome ul {
+
+        line-height: calc(15px + 3vw);
+
+        font-size: calc(15px + 1.5vw);
+
+    }
+
+
+    header button {
+
+        margin: 80px 0 10px;
+        font-size: calc(15px + 2vw)
+
+    }
+
+
+    /* Sekcja */
+    .features {
+
+        margin-top: 20px;
+
+    }
+
+    .feature {
+
+        float: left;
+        width: 33%;
+        padding: 30px;
+
+    }
+
+    .features h1 {
+
+        font-size: 40px;
+
+    }
+
+    .features h2 {
+
+        font-size: 26px;
+
+    }
+
+    .features p {
+
+        font-size: 22px;
+        line-height: 140%;
+
+    }
+
+    .portfolio h1 {
+
+        font-size: 45px;
+
+    }
+
+
+
+    .portfolio .about h2 {
+
+        font-size: calc(25px + 2vh);
+
+    }
+
+    .portfolio .about p {
+
+        font-size: calc(15px + 1.1vh);
+
+    }
+
+    /* HOBBY */
+
+    /* Stylowanie efektu najechania na obnrazki */
+
+    .item p {
+
+        opacity: 0;
+        transition: 1s;
+        height: 45vh;
+
+    }
+
+    .item:hover p {
+
+        opacity: 1;
+
+    }
+
+    .item {
+
+        background-size: 100%;
+        transition: 1s;
+        height: 45vh;
+
+    }
+
+    .item:hover {
+
+        background-size: 130%;
+
+    }
+
+    /* KONTAKT */
+
+    .contact h1 {
+
+        font-size: calc(26px + 1.5vw);
+
+    }
+
+    div.wrapper {
+
+        margin: 0 auto;
+
+    }
+
+    .contact form {
+
+        padding-top: 30px;
+        float: left;
+        width: 30%;
+
+    }
+
+    .contact .socials {
+
+        float: left;
+        width: 70%;
+
+    }
+
+    .contact .social,
+    .contact .social1 {
+
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    div.blok1,
+    div.blok2 {
+
+        float: left;
+        width: 50%;
+
+    }
+
+    .contact button {
+
+        height: 4vw;
+        display: block;
+        margin: 0 auto;
+        font-size: calc(25px + 1vw);
+        line-height: calc(30px + 1.5vw);
+
+    }
+}
+
+@media (min-width:1600px) {
+
+    div.welcome {
+
+        top: 100px;
+        line-height: calc(15px + 4vw);
+
+    }
+
+    header button {
+
+        margin: 80px 0 10px;
+        font-size: calc(15px + 1.5vw);
+
+    }
+
+}
+
+
+
+
+/* UKŁAD Portretowy  */
+
+@media (min-width:320px) and (orientation:portrait) {
+
+    header {
+
+        background-size: 100%;
+        background-position-y: 205px;
+        background-attachment: initial;
+
+    }
+
+    /* KONTAKT */
+
+    .contact .social1 span {
+
+        float: left;
+        font-size: calc(14px + 0.4vh);
+
+    }
+
+    .contact button {
+
+        height: 9vh;
+        font-size: calc(20px + 1.1vh);
+
+    }
+
+
+}
+
+@media(min-height:640px) and (orientation:portrait) {
+
+    header {
+
+        background-position-y: 255px;
+
+    }
+
+    div.welcome p {
+
+        font-size: 25px;
+
+    }
+
+    div.welcome h1 {
+
+        font-size: 35px;
+    }
+
+    div.welcome h2 {
+
+        font-size: 30px;
+    }
+
+    div.welcome ul {
+
+        margin: 5px auto;
+        line-height: 23px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 20px;
+
+    }
+
+    header button {
+
+        font-size: 27px;
+        margin-top: 270px;
+
+    }
+
+    /* Sekcja */
+
+    .features h1 {
+
+        font-size: 28px;
+
+    }
+
+    .features h1 {
+
+        font-size: 28px;
+
+    }
+
+
+
+    .features p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* Zlecenia */
+    .portfolio h1 {
+
+        font-size: 45px;
+        
+    }
+
+
+
+    .portfolio .about h2 {
+
+        font-size: calc(25px + 1vh);
+
+    }
+
+    .portfolio .about p {
+
+        font-size: calc(15px + 1.5vh);
+
+    }
+}
+
+@media(min-height: 731px) and (orientation:portrait) {
+
+    header {
+
+        background-position-y: 400px;
+
+    }
+
+
+    div.welcome p {
+
+        font-size: 45px;
+
+    }
+
+    div.welcome h1 {
+
+        font-size: 55px;
+    }
+
+    div.welcome h2 {
+
+        font-size: 40px;
+
+    }
+
+    div.welcome ul {
+
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    header button {
+
+        font-size: 47px;
+        margin-top: 270px
+
+    }
+
+    /* Sekcja */
+
+
+    .features h1 {
+
+        font-size: 50px;
+
+    }
+
+    .features h2 {
+
+        font-size: 40px;
+
+    }
+
+    .features p {
+
+        font-size: 34px;
+
+    }
+
+    /* Motto */
+    .motto h1 {
+
+        font-size: calc(40px + 1.5vh);
+
+    }
+
+    .motto p {
+
+        font-size: calc(20px + 0.8vh);
+
+    }
+
+    .motto p.author {
+
+        font-size: calc(40px + 1.5vh);
+
+    }
+
+}
+
+
+
+@media(min-height: 1024px) and (orientation:portrait) {
+
+
+
+    header button {
+
+        margin-top: 470px;
+
+    }
+}
+
+@media(min-height: 1366px) and (orientation:portrait) {
+
+    header {
+
+        background-position-y: 500px;
+
+    }
+
+    div.welcome {
+
+        top: 40px;
+
+    }
+
+    section.features {
+
+        border-bottom: 10px solid black;
+
+    }
+
+    header button {
+
+        margin-top: 770px;
+
+    }
+
+    div.feature {
+
+        border-bottom: none;
+        
+    }
+} */
